@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Помощь - Автосалон "Кидэ"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Помощь/FAQ</h1>
+      <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="installment.html">Рассрочка</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Профиль</a>
+        <a href="special-offers.html">Спец предложения</a>
+        <a href="trade-in.html">Обмен авто</a>
+        <a href="test-drive.html">Тест драйв</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Часто задаваемые вопросы -->
+    <section class="faq-section">
+      <h2>Часто задаваемые вопросы</h2>
+      <div class="faq-item">
+        <h3>Как оформить кредит на автомобиль?</h3>
+        <p>Для оформления кредита необходимо выбрать автомобиль, заполнить заявку на кредит и предоставить необходимые документы.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Можно ли вернуть автомобиль после покупки?</h3>
+        <p>Возврат автомобиля возможен в рамках законодательства. Свяжитесь с нашим менеджером для уточнения условий.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Что такое программа трейд-ин?</h3>
+        <p>Программа трейд-ин позволяет обменять ваш старый автомобиль на новый с доплатой. Оценка автомобиля проводится нашими специалистами.</p>
+      </div>
+    </section>
+
+    <!-- Контактная форма -->
+    <section class="faq-form">
+      <h2>Задайте ваш вопрос</h2>
+      <form id="faq-form">
+        <div class="form-group">
+          <label for="faq-name">Ваше имя:</label>
+          <input type="text" id="faq-name" placeholder="Введите ваше имя" required>
+        </div>
+        <div class="form-group">
+          <label for="faq-email">Ваш email:</label>
+          <input type="email" id="faq-email" placeholder="Введите ваш email" required>
+        </div>
+        <div class="form-group">
+          <label for="faq-question">Ваш вопрос:</label>
+          <textarea id="faq-question" rows="4" placeholder="Введите ваш вопрос" required></textarea>
+        </div>
+        <button type="button" id="submit-faq">Отправить вопрос</button>
+      </form>
+      <div class="faq-result">
+        <p id="faq-message">Ваш вопрос успешно отправлен. Мы свяжемся с вами в ближайшее время.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Автосалон "Кидэ". Все права защищены.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

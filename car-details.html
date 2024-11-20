@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mustang GT - Автосалон "Кидэ"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Mustang GT</h1>
+      <nav class="navbar">
+        <a href="catalog.html">Каталог</a>
+        <a href="installment.html">Рассрочка</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Профиль</a>
+        <a href="special-offers.html">Спец предложения</a>
+        <a href="trade-in.html">Обмен авто</a>
+        <a href="test-drive.html">Тест драйв</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Car Images -->
+    <section class="car-images">
+      <img src="images/car1-big1.jpg" alt="Mustang GT - Вид 1">
+      <img src="images/car1-big2.jpg" alt="Mustang GT - Вид 2">
+    </section>
+
+    <!-- Car Details -->
+    <section class="car-details">
+      <h2>Технические характеристики</h2>
+      <ul>
+        <li><strong>Мощность:</strong> 450 л.с.</li>
+        <li><strong>Расход топлива:</strong> 12 л/100 км</li>
+        <li><strong>Объем багажника:</strong> 408 л</li>
+        <li><strong>Тип двигателя:</strong> Бензиновый</li>
+        <li><strong>Привод:</strong> Задний</li>
+      </ul>
+    </section>
+
+    <!-- Available Colors -->
+    <section class="car-colors">
+      <h2>Доступные цвета</h2>
+      <div class="color-options">
+        <div class="color-box" style="background-color: red;" data-color="Красный"></div>
+        <div class="color-box" style="background-color: black;" data-color="Черный"></div>
+        <div class="color-box" style="background-color: blue;" data-color="Синий"></div>
+      </div>
+      <p id="selected-color">Выбранный цвет: <span>Красный</span></p>
+    </section>
+
+    <!-- Price and Actions -->
+    <section class="car-actions">
+      <h2>Цена: 2 500 000 ₽</h2>
+      <p><strong>Акция:</strong> Скидка 5% при оформлении заявки до конца месяца!</p>
+      <button class="action-btn" id="test-drive-btn">Записаться на тест-драйв</button>
+      <button class="action-btn" id="purchase-btn">Оставить заявку на покупку</button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Автосалон "Кидэ". Все права защищены.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

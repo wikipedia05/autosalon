@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Рассрочка и кредит - Автосалон "Кидэ"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Рассрочка и кредит</h1>
+      <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Профиль</a>
+        <a href="special-offers.html">Спец предложения</a>
+        <a href="trade-in.html">Обмен авто</a>
+        <a href="test-drive.html">Тест драйв</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="credit-calculator">
+      <h2>Калькулятор рассрочки/кредита</h2>
+      <form id="calculator-form">
+        <div class="form-group">
+          <label for="car-price">Стоимость автомобиля (₽):</label>
+          <input type="number" id="car-price" placeholder="Введите стоимость" required>
+        </div>
+        <div class="form-group">
+          <label for="initial-payment">Первоначальный взнос (₽):</label>
+          <input type="number" id="initial-payment" placeholder="Введите сумму" required>
+        </div>
+        <div class="form-group">
+          <label for="credit-term">Срок кредита (месяцев):</label>
+          <input type="number" id="credit-term" placeholder="Введите срок" required>
+        </div>
+        <button type="button" id="calculate-btn">Рассчитать</button>
+      </form>
+      <div class="result">
+        <p id="monthly-payment">Ежемесячный платеж: —</p>
+      </div>
+    </section>
+
+    <section class="partners">
+      <h2>Банки-партнеры</h2>
+      <ul>
+        <li>Банк Авангард</li>
+        <li>Альфа-Банк</li>
+        <li>Сбербанк</li>
+        <li>ВТБ</li>
+      </ul>
+    </section>
+
+    <section class="apply-credit">
+      <h2>Оформите заявку на кредит</h2>
+      <button class="apply-btn">Оставить заявку</button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Автосалон "Кидэ". Все права защищены.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

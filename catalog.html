@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог автомобилей - Автосалон "Кидэ"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Каталог автомобилей</h1>
+      <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="installment.html">Рассрочка</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Профиль</a>
+        <a href="special-offers.html">Спец предложения</a>
+        <a href="trade-in.html">Обмен авто</a>
+        <a href="test-drive.html">Тест драйв</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Filters Section -->
+    <section class="filters">
+      <h2>Фильтры</h2>
+      <form id="filter-form">
+        <div class="filter-group">
+          <label for="brand">Бренд:</label>
+          <select id="brand">
+            <option value="all">Все</option>
+            <option value="mustang">Mustang</option>
+            <option value="ford">Ford</option>
+            <option value="bmw">BMW</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="price">Цена:</label>
+          <input type="number" id="price" placeholder="до, ₽">
+        </div>
+        <div class="filter-group">
+          <label for="body-type">Тип кузова:</label>
+          <select id="body-type">
+            <option value="all">Все</option>
+            <option value="sedan">Седан</option>
+            <option value="suv">Внедорожник</option>
+            <option value="coupe">Купе</option>
+          </select>
+        </div>
+        <button type="button" id="apply-filters">Применить</button>
+      </form>
+    </section>
+
+    <!-- Cars Section -->
+    <section class="cars">
+      <h2>Наши автомобили</h2>
+      <div class="car-grid">
+        <div class="car-card" data-brand="mustang" data-price="2500000" data-body="coupe">
+          <img src="">
+          <h3>Mustang GT</h3>
+          <p>Цена: 2 500 000 ₽</p>
+          <button class="details-btn">Подробнее</button>
+        </div>
+        <div class="car-card" data-brand="ford" data-price="3200000" data-body="suv">
+          <img src="" alt="Ford Explorer">
+          <h3>Ford Explorer</h3>
+          <p>Цена: 3 200 000 ₽</p>
+          <button class="details-btn">Подробнее</button>
+        </div>
+        <div class="car-card" data-brand="bmw" data-price="4000000" data-body="sedan">
+          <img src="" alt="BMW 5 Series">
+          <h3>BMW 5 Series</h3>
+          <p>Цена: 4 000 000 ₽</p>
+          <button class="details-btn">Подробнее</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Автосалон "Кидэ". Все права защищены.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

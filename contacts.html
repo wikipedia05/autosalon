@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты - Автосалон "Кидэ"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Контакты</h1>
+      <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="installment.html">Рассрочка</a>
+        <a href="profile.html">Профиль</a>
+        <a href="special-offers.html">Спец предложения</a>
+        <a href="trade-in.html">Обмен авто</a>
+        <a href="test-drive.html">Тест драйв</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Контактная информация -->
+    <section class="contacts">
+      <h2>Как нас найти?</h2>
+      <div class="contacts-info">
+        <div class="contacts-details">
+          <h3>Наш адрес:</h3>
+          <p>г. Москва, ул. Примерная, д. 123</p>
+          <p>г. Санкт-Петербург, Невский пр., д. 456</p>
+
+          <h3>Телефон:</h3>
+          <p>+7 (495) 123-45-67</p>
+
+          <h3>E-mail:</h3>
+          <p>info@kideautosalon.ru</a></p>
+
+          <h3>Часы работы:</h3>
+          <p>Пн-Пт: 9:00 - 20:00</p>
+          <p>Сб-Вс: 10:00 - 18:00</p>
+        </div>
+
+        <div class="contacts-map">
+          <h3>Карта:</h3>
+          <div id="map">
+            <!-- Карта будет загружена с помощью JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Форма обратной связи -->
+    <section class="contact-form">
+      <h2>Напишите нам</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите ваше имя" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите ваш email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea id="message" rows="4" placeholder="Введите ваше сообщение" required></textarea>
+        </div>
+        <button type="button" id="send-message">Отправить</button>
+      </form>
+      <div class="contact-result">
+        <p id="form-message">Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Автосалон "Кидэ". Все права защищены.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

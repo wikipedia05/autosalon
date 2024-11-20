@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Трейд-ин - Автосалон "Кидэ"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Трейд-ин</h1>
+      <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="installment.html">Рассрочка</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Профиль</a>
+        <a href="special-offers.html">Спец предложения</a>
+        <a href="test-drive.html">Тест драйв</a>
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Условия программы трейд-ин -->
+    <section class="tradein-conditions">
+      <h2>Условия программы трейд-ин</h2>
+      <p>Обменяйте свой старый автомобиль на новый с выгодой до 200 000 ₽. Мы принимаем автомобили любых брендов и оцениваем их по рыночной стоимости.</p>
+    </section>
+
+    <!-- Форма оценки автомобиля -->
+    <section class="tradein-form">
+      <h2>Оцените ваш автомобиль</h2>
+      <form id="tradein-form">
+        <div class="form-group">
+          <label for="car-brand">Марка автомобиля:</label>
+          <input type="text" id="car-brand" placeholder="Введите марку" required>
+        </div>
+        <div class="form-group">
+          <label for="car-model">Модель автомобиля:</label>
+          <input type="text" id="car-model" placeholder="Введите модель" required>
+        </div>
+        <div class="form-group">
+          <label for="car-year">Год выпуска:</label>
+          <input type="number" id="car-year" placeholder="Введите год выпуска" required>
+        </div>
+        <div class="form-group">
+          <label for="car-mileage">Пробег (км):</label>
+          <input type="number" id="car-mileage" placeholder="Введите пробег" required>
+        </div>
+        <div class="form-group">
+          <label for="car-condition">Состояние автомобиля:</label>
+          <select id="car-condition" required>
+            <option value="Отличное">Отличное</option>
+            <option value="Хорошее">Хорошее</option>
+            <option value="Среднее">Среднее</option>
+            <option value="Плохое">Плохое</option>
+          </select>
+        </div>
+        <button type="button" id="submit-tradein">Отправить заявку</button>
+      </form>
+      <div class="tradein-result">
+        <p id="tradein-message">Ваш запрос будет обработан в ближайшее время.</p>
+      </div>
+    </section>
+
+    <!-- Преимущества трейд-ин -->
+    <section class="tradein-benefits">
+      <h2>Преимущества обмена старого авто</h2>
+      <ul>
+        <li>Экономия времени на продаже автомобиля.</li>
+        <li>Скидка на новый автомобиль до 200 000 ₽.</li>
+        <li>Оценка автомобиля в день обращения.</li>
+        <li>Удобный обмен без лишних хлопот.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Автосалон "Кидэ". Все права защищены.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
